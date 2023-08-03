@@ -4,3 +4,5 @@ from django.http import HttpResponse
 
 def home(request):
     return render(request, 'home.html',{'name':'Santiago Gomez'})
+def about(request):
+    return render(request, 'about.html')
